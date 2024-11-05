@@ -61,32 +61,32 @@ Data Visualization: Presented complex insights through charts, graphs, and other
 ## Exploratory Data Analysis
 ---
 This involves exploring the the Data to answer some questions which are needful for effective analysis. Questions such as
-Sales Data
+# Sales Data
 
-What is the total sales for each product category
-Number of sales in each region
-Total revenue per product Monthly Sales totals for the current year
-Top 5 customers by purchase amount
-Percentage of total sales contributed by each region
-Products with no sales in the last quarter
+ *What is the total sales for each product category
+ *Number of sales in each region
+ *Total revenue per product Monthly Sales totals for the current year
+ *Top 5 customers by purchase amount
+ *Percentage of total sales contributed by each region
+ *Products with no sales in the last quarter
 
-Customer Data
-The total number of customers for each region
-The most popular subscription type by number of customers
-Customers who cancelled their subscription within 6 months
-Customers with subscription longer than 12 months
-Total revenue by subscription type
-Top 3 regions by subscription cancellations
-Total number of active and cancelled subscription
+# Customer Data
+ *The total number of customers for each region
+ *The most popular subscription type by number of customers
+ *Customers who cancelled their subscription within 6 months
+ *Customers with subscription longer than 12 months
+ *Total revenue by subscription type
+ *Top 3 regions by subscription cancellations
+ *Total number of active and cancelled subscription
 
 ## Data Analysis with Excel
 ---
-Sales Data
+# Sales Data
 [LITA Capstone Dataset (1).xlsx](https://github.com/user-attachments/files/17638634/LITA.Capstone.Dataset.1.xlsx)
 [LITA CAPSTONE Cleaned EXCEL PIVOT TABLE.xlsx](https://github.com/user-attachments/files/17638672/LITA.CAPSTONE.Cleaned.EXCEL.PIVOT.TABLE.xlsx)
-Sales Data
+# Sales Data
 ales Data
-Screenshot (13)
+Screenshot 
 
 Screenshot (14)
 
