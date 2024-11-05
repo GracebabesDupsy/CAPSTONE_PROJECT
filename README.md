@@ -82,4 +82,10 @@ Total number of active and cancelled subscription
 ## Data Analysis with Excel
 ---
 Sales Data
+[LITA Capstone Dataset (1).xlsx](https://github.com/user-attachments/files/17638634/LITA.Capstone.Dataset.1.xlsx)
+[LITA CAPSTONE Cleaned EXCEL PIVOT TABLE.xlsx](https://github.com/user-attachments/files/17638672/LITA.CAPSTONE.Cleaned.EXCEL.PIVOT.TABLE.xlsx)
+Sales Data
+
+
+
 
