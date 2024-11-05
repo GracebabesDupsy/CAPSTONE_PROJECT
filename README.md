@@ -141,6 +141,7 @@ Attrition count 2
 ## DATA ANALYSIS WITH SQL.
 
 ```SQL
+### Sales Data
 SELECT * FROM [dbo].[Sales Data];
 - Total sales from each product category 
 select PRODUCT, SUM(Total_Sales) as Totalsales from [dbo].[Sales Data]
@@ -193,7 +194,6 @@ from [dbo].[Sales Data]
 where OrderDate between '2024-07-01' and '2024-09-30'
 )
 
-```SQL
 ### Customer Data
 
 SELECT * FROM [dbo].[Customer Data];
