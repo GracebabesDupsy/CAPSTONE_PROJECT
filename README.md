@@ -35,11 +35,10 @@ Checked that data was ready for SQL queries and Power BI dashboard creation.
 ## DATA SOURCES
 ---
 The main spurces for this data analysis are the "Sales Data.csv" and "Customer Data.csv" which are the open source datasets that are readily available for free download from online repositories like Kaggle, FRED or other similar platforms.
-TOOL USED
+## TOOLS USED
 ---
 This portfolio uses a combination of Excel, SQL, and Power BI to conduct a thorough analysis of sales and customer data, transforming raw information into actionable insights through data cleaning, exploration, and visualization.
-
-1. Microsoft Excel;
+1. MICROSOFT EXCEL;
 Purpose: Initial data exploration, summary reporting, and preliminary calculations.
 Key Uses:
 Pivot Tables: Generated summaries of sales by product, region, and month for a high-level overview.
@@ -52,18 +51,35 @@ Key Uses:
 Data Extraction: Queried key insights such as top-selling products, regional sales trends, monthly revenue, popular subscription types, and customer segmentation.
 Data Transformation: Used SQL functions to filter data, calculate metrics, and identify trends (e.g., revenue by product category, cancellations within six months).
 Data Quality Checks: Ensured consistency and accuracy in data by cross-validating findings with Excel calculations.
-3.. Power BUSINESS INTELEGENCE (Power BI)
+3. POWER BUSINESS INTELEGENCE (Power BI)
 Purpose: Create interactive dashboards for data visualization, enabling users to explore insights in a visually engaging and user-friendly format.
 Key Uses:
 Dashboard Creation: Developed dashboards that display sales trends, customer segments, and other key performance indicators (KPIs) found through Excel and SQL analysis.
 Data Slicers and Filters: Incorporated slicers for dynamic filtering, allowing stakeholders to interact with the data (e.g., view sales by region, subscription types, or specific time periods).
 Data Visualization: Presented complex insights through charts, graphs, and other visuals, making trends and patterns easily understandable. [Download here]
 (https//www.microsoft.com)
-Exploratory Data Analysis
+## Exploratory Data Analysis
 ---
-During the EDA phase, both projects involved a structured approach to understanding and summarizing key aspects of the datasets. This included using Excel for preliminary insights and SQL for more in-depth analysis. EDA helped identify trends, potential outliers, and patterns, guiding the direction of the analysis and visualization.
+This involves exploring the the Data to answer some questions which are needful for effective analysis. Questions such as
+Sales Data
 
-Project 1: Sales Performance Analysis for a Retail Store
-Objective: Gain insights into sales data to identify top-selling products, regional sales performance, and monthly sales trends.
+What is the total sales for each product category
+Number of sales in each region
+Total revenue per product Monthly Sales totals for the current year
+Top 5 customers by purchase amount
+Percentage of total sales contributed by each region
+Products with no sales in the last quarter
 
-Key Steps in EDA:
+Customer Data
+The total number of customers for each region
+The most popular subscription type by number of customers
+Customers who cancelled their subscription within 6 months
+Customers with subscription longer than 12 months
+Total revenue by subscription type
+Top 3 regions by subscription cancellations
+Total number of active and cancelled subscription
+
+## Data Analysis with Excel
+---
+Sales Data
+
