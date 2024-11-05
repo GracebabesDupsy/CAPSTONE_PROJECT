@@ -140,10 +140,8 @@ Attrition count 2
  
 ## DATA ANALYSIS WITH SQL.
 
-### Sales Data
-
+```SQL
 SELECT * FROM [dbo].[Sales Data];
-
 - Total sales from each product category 
 select PRODUCT, SUM(Total_Sales) as Totalsales from [dbo].[Sales Data]
 group by Product;
@@ -195,7 +193,8 @@ from [dbo].[Sales Data]
 where OrderDate between '2024-07-01' and '2024-09-30'
 )
 
-Customer Data
+```SQL
+### Customer Data
 
 SELECT * FROM [dbo].[Customer Data];
 
@@ -240,6 +239,7 @@ order by Totalccancellations DESC;
 Select canceled, COUNT(customerid) as SubscriptionCount
 from[dbo].[Customer data]
 Group by Canceled;
+```
 
 
 
