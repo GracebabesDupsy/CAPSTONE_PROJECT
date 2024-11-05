@@ -112,17 +112,23 @@ Attrition count 2
 ### Sales Data
 
  *Shoes is the best selling product with over 600,000 sales
+ 
  *Socks is the least selling product with about 180,000 sales
+ 
  *The busiest month was February
+ 
  *There was strong and high sales in the first and second quarter
+ 
  *Sales was down by about 50% in the last quarter
+ 
  *In all the regions, South had 44% of sales, East had 23%, North had 18% and lastly West with 14%
  *Average sales for the year was 211.78% showing strong customer interest throughout the year
  *Customer data
  *Basic Subsciption emerged as the most popular type of subscription accounting for over 50% of all the subscriptions
  *Average Subscription was 365vdays
  *East showed a remarkable commitment to their subscription with zero cancellation while others occasionaly cancel their subscription
- *Total revenue generated was 68 million which is quite impressive and also shows the loyalty cusomers place on theie subscription thereby building a strong foundation for the service
+ *Total revenue generated was 68 million which is quite impressive and also shows the loyalty cusomers place on theie subscription thereby building a strong foundation 
+ for the service
 ## Data Analysis with SQL.
 # Sales Data
 SELECT * FROM [dbo].[Sales Data];
