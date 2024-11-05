@@ -44,7 +44,7 @@ Purpose: Initial data exploration, summary reporting, and preliminary calculatio
 Key Uses:
 Pivot Tables: Generated summaries of sales by product, region, and month for a high-level overview.
 Formulas and Calculations: Calculated metrics such as average sales per product, total revenue per region, and subscription durations.
-Data Cleaning: Identified and handled missing values, removed duplicates, and standardized formats in preparation for SQL analysis and Power BI visualization [Download here( https//www.microsoft.com)].
+Data Cleaning: Identified and handled missing values, removed duplicates, and standardized formats in preparation for SQL analysis and Power BI visualization. [Download here](https//www.microsoft.com)].
 2. SQL (SQL Server)
 Purpose: Perform more complex data queries, aggregations, and transformations to answer specific business questions.
 Key Uses:
