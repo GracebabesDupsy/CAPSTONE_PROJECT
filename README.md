@@ -85,7 +85,140 @@ Sales Data
 [LITA Capstone Dataset (1).xlsx](https://github.com/user-attachments/files/17638634/LITA.Capstone.Dataset.1.xlsx)
 [LITA CAPSTONE Cleaned EXCEL PIVOT TABLE.xlsx](https://github.com/user-attachments/files/17638672/LITA.CAPSTONE.Cleaned.EXCEL.PIVOT.TABLE.xlsx)
 Sales Data
+ales Data
+Screenshot (13)
 
+Screenshot (14)
+
+Customer Data
+Screenshot (16)
+
+Screenshot (17)
+
+Data Visualization with Power BI.
+Sales data
+Screenshot (18)
+
+Customer data
+
+Screenshot (19)
+
+Attrition count 2
+
+Insights on Analysis.
+Sales Data
+Shoes is the best selling product with over 600,000 sales
+Socks is the least selling product with about 180,000 sales
+The busiest month was February
+There was strong and high sales in the first and second quarter
+Sales was down by about 50% in the last quarter
+In all the regions, South had 44% of sales, East had 23%, North had 18% and lastly West with 14%
+Average sales for the year was 211.78% showing strong customer interest throughout the year
+Customer data
+Basic Subsciption emerged as the most popular type of subscription accounting for over 50% of all the subscriptions
+Average Subscription was 365vdays
+East showed a remarkable commitment to their subscription with zero cancellation while others occasionaly cancel their subscription
+Total revenue generated was 68 million which is quite impressive and also shows the loyalty cusomers place on theie subscription thereby building a strong foundation for the service
+Data Analysis with SQL.
+Sales Data
+SELECT * FROM [dbo].[Sales Data];
+
+- Total sales from each product category 
+select PRODUCT, SUM(Total_Sales) as Totalsales from [dbo].[Sales Data]
+group by Product;
+
+- Number of sales transaction in each region 
+select Region, COUNT(Total_Sales) as  No_of_sales_by_region
+from [dbo].[Sales Data]
+Group by Region
+
+- Highest selling product by total sales value 
+select PRODUCT, SUM(Total_Sales) as highest_selling_product from [dbo].[Sales Data]
+group by Product
+order by PRODUCT desc
+
+- Total revenue per product 
+select PRODUCT, SUM(Total_Sales) as Totalsales from [dbo].[Sales Data]
+group by Product;
+
+- Monthly sales totals for the current year 
+select month(orderdate) as month,
+SUM(quantity*unitprice) as monthly_sales
+from[dbo].[Sales Data]
+where YEAR(OrderDate)=YEAR(GETDATE())
+group by MONTH(OrderDate);
+
+- Top 5 customers by total purchase amount 
+select top 5 customer_Id,
+sum(total_sales) AS Total_purchase_Amount
+From [Sales Data]
+group by customer_ID
+order by
+Total_purchase_Amount DESC;
+
+- Percentage of total sales contributed by each region 
+
+SELECT REGION, sum(quantity*unitprice) as Totalsales,
+sum(quantity*unitprice)* 1.0/ (select sum(Quantity * Unitprice) 
+from [dbo] .[Sales Data]) * 100
+as PercentageOfTotalSales
+from [dbo] .[Sales Data]
+group by Region;
+
+- Products with no sale in the last quater 
+select distinct product, orderid, quantity
+from [dbo].[Sales Data]
+where product NOT IN
+(select distinct product
+from [dbo].[Sales Data]
+where OrderDate between '2024-07-01' and '2024-09-30'
+)
+
+Customer Data
+
+SELECT * FROM [dbo].[Customer Data];
+
+- Total number of customers from each region------
+Select region, COUNT(distinct customerid)
+as total_customer from [dbo].[Customer data]
+group by Region;
+
+- Most popular subscription type by the number of customers----
+Select top 1 subscriptiontype, 
+COUNT(distinct customerid)
+as total_customers from [dbo].[Customer data]
+group by SubscriptionType
+order by total_customers desc;
+
+- Customers who cancelled their subscription within 6 months 
+select customerid, customername, canceled
+from [dbo].[Customer data]
+where canceled = 'true' and month (subscriptionStart) between 1 and 6
+
+- Average subscription duration for all customers 
+select AVG(datediff(day, subscriptionstart, subscriptionend))
+as avg_subscription_duration from [dbo].[Customer data]
+
+- Customers with subscription longer than 12 months 
+select customerid from [dbo].[Customer data]
+where DATEDIFF(month, subscriptionstart, subscriptionend) >12;
+
+- Total Revenue by subscription type 
+select subscriptiontype, 
+SUM(revenue) as total_revenue from [dbo].[Customer data]
+group by SubscriptionType;
+
+- Top 3 regions by subscription cancellation 
+select Region, COUNT(customerid) as Totalccancellations
+from [dbo].[Customer data]
+where canceled = 'True'
+group by Region
+order by Totalccancellations DESC;
+
+- Total number of active and cancelled subscription 
+Select canceled, COUNT(customerid) as SubscriptionCount
+from[dbo].[Customer data]
+Group by Canceled;
 
 
 
