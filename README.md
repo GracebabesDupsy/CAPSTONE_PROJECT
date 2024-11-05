@@ -1,5 +1,7 @@
 # CAPSTONE_PROJECT
 
+## PROJECT TITLE: Sales Analysis
+
 ## PROJECT OVERVIEW
  ---
 This work presents two in-depth data analysis projects that explore retail sales performance and customer segmentation for a subscription service. Using a combination of Excel, SQL, and Power BI, these projects demonstrate how to analyze, interpret, and visualize data to uncover actionable business insight
