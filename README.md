@@ -131,18 +131,18 @@ Sales Data
 
 Customer Data
 
-Screenshot (16)
+Screenshot 
 
-Screenshot (17)
+Screenshot 
 
 ### DATA VISUALIZATION WITH POWER BI.
 ---
 ### Sales data
-Screenshot (18)
+Screenshot 
 
 Customer data
 
-Screenshot (19)
+Screenshot 
 
 Attrition count 2
 
