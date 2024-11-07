@@ -1,4 +1,4 @@
-# CAPSTONE_PROJECT
+# LITA_ CAPSTONE_PROJECT 
 
 ### PROJECT TITLE: Sales and Customers Analysis
 
