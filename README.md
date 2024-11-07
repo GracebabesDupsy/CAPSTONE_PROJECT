@@ -10,11 +10,11 @@
 
 [TOOLS USED](#tools-used)
 
-[EXPLORATORY DATA AnNALYSIS](#exploratory-data-analysis)
+[EXPLORATORY DATA ANALYSIS](#exploratory-data-analysis)
 
 [INSIGHT ON ANALYSIS](#insight-on-analysis)
 
-### PROJECT OVERVIEW
+## PROJECT OVERVIEW
  ---
 This work presents two in-depth data analysis projects that explore retail sales performance and customer segmentation for a subscription service. Using a combination of Excel, SQL, and Power BI, these projects demonstrate how to analyze, interpret, and visualize data to uncover actionable business insight
 ## DATA CLEANING AND PREPARATION
@@ -72,8 +72,16 @@ Purpose: Create interactive dashboards for data visualization, enabling users to
 Key Uses:
 Dashboard Creation: Developed dashboards that display sales trends, customer segments, and other key performance indicators (KPIs) found through Excel and SQL analysis.
 Data Slicers and Filters: Incorporated slicers for dynamic filtering, allowing stakeholders to interact with the data (e.g., view sales by region, subscription types, or specific time periods).
-Data Visualization: Presented complex insights through charts, graphs, and other visuals, making trends and patterns easily understandable. [Download here]
-(https//www.microsoft.com)
+Data Visualization: Presented complex insights through charts, graphs, and other visuals, making trends and patterns easily understandable. [Download here](https//www.microsoft.com)
+
+4.  Github
+  
+Purpose: Is a versatile plateform for coding, collaboration, learning, and showcasing projects
+
+Key Uses:
+Portfolio Building: To build portfolio or to showcase/ demonstrate one's work
+Collaboration: Enables teams to work togetheron the same project
+
 
 ## EXPLORATORY DATA AnNALYSIS
 ---
@@ -103,11 +111,9 @@ This involves exploring the the Data to answer some questions which are needful 
 [LITA CAPSTONE Cleaned EXCEL PIVOT TABLE.xlsx](://github.com/user-attachments/files/17638672/LITA.CAPSTONE.Cleaned.EXCEL.PIVOT.TABLE.xlsx)
 ### Sales Data
 Sales Data
-Screenshot 
-
-Screenshot (14)
 
 Customer Data
+
 Screenshot (16)
 
 Screenshot (17)
