@@ -1,13 +1,20 @@
 # CAPSTONE_PROJECT
 
-## PROJECT TITLE: Sales and Customers Analysis
+### PROJECT TITLE: Sales and Customers Analysis
 
 [PROJECT OVERVIEW](#project-overview)
+
 [DATA CLEANING AND PREPARATION](#data-cleaning-and-preparation)
+
 [DATA SOURCES](#data-sources)
+
 [TOOLS USED](#tools-used)
+
+[EXPLORATORY DATA AnNALYSIS](#exploratory-data-analysis)
+
 [INSIGHT ON ANALYSIS](#insight-on-analysis)
-## PROJECT OVERVIEW
+
+### PROJECT OVERVIEW
  ---
 This work presents two in-depth data analysis projects that explore retail sales performance and customer segmentation for a subscription service. Using a combination of Excel, SQL, and Power BI, these projects demonstrate how to analyze, interpret, and visualize data to uncover actionable business insight
 ## DATA CLEANING AND PREPARATION
@@ -39,9 +46,11 @@ In the Customer Segmentation project: Created a subscription duration column by 
 Conducted a final review to ensure data consistency and quality:
 Verified that all key metrics (e.g., total sales, customer counts) aligned with expected values.
 Checked that data was ready for SQL queries and Power BI dashboard creation.
+
 ## DATA SOURCES
 ---
 The main spurces for this data analysis are the "Sales Data.csv" and "Customer Data.csv" which are the open source datasets that are readily available for free download from online repositories like Kaggle, FRED or other similar platforms.
+
 ## TOOLS USED
 ---
 This portfolio uses a combination of Excel, SQL, and Power BI to conduct a thorough analysis of sales and customer data, transforming raw information into actionable insights through data cleaning, exploration, and visualization.
@@ -65,6 +74,7 @@ Dashboard Creation: Developed dashboards that display sales trends, customer seg
 Data Slicers and Filters: Incorporated slicers for dynamic filtering, allowing stakeholders to interact with the data (e.g., view sales by region, subscription types, or specific time periods).
 Data Visualization: Presented complex insights through charts, graphs, and other visuals, making trends and patterns easily understandable. [Download here]
 (https//www.microsoft.com)
+
 ## EXPLORATORY DATA AnNALYSIS
 ---
 This involves exploring the the Data to answer some questions which are needful for effective analysis. Questions such as
@@ -90,9 +100,9 @@ This involves exploring the the Data to answer some questions which are needful 
 ---
 ### Sales Data
 [LITA Capstone Dataset (1).xlsx](https://github.com/user-attachments/files/17638634/LITA.Capstone.Dataset.1.xlsx)
-[LITA CAPSTONE Cleaned EXCEL PIVOT TABLE.xlsx](https://github.com/user-attachments/files/17638672/LITA.CAPSTONE.Cleaned.EXCEL.PIVOT.TABLE.xlsx)
+[LITA CAPSTONE Cleaned EXCEL PIVOT TABLE.xlsx](://github.com/user-attachments/files/17638672/LITA.CAPSTONE.Cleaned.EXCEL.PIVOT.TABLE.xlsx)
 ### Sales Data
- Sales Data
+Sales Data
 Screenshot 
 
 Screenshot (14)
