@@ -1,11 +1,16 @@
 # CAPSTONE_PROJECT
 
-## PROJECT TITLE: Sales Analysis
+## PROJECT TITLE: Sales and Customers Analysis
 
+[PROJECT OVERVIEW](#project-overview)
+[DATA CLEANING AND PREPARATION](#data-cleaning-and-preparation)
+[DATA SOURCES](#data-sources)
+[TOOLS USED](#tools-used)
+[INSIGHT ON ANALYSIS](#insight-on-analysis)
 ## PROJECT OVERVIEW
  ---
 This work presents two in-depth data analysis projects that explore retail sales performance and customer segmentation for a subscription service. Using a combination of Excel, SQL, and Power BI, these projects demonstrate how to analyze, interpret, and visualize data to uncover actionable business insight
-## DATA CLEANING
+## DATA CLEANING AND PREPARATION
 ---
 In both the Sales Performance Analysis and Customer Segmentation projects, data cleaning was essential to ensure accuracy and reliability. This process involved multiple steps to transform raw data into a usable format, identifying and addressing issues such as missing values, inconsistent formats, duplicate records, and outliers. Here’s an outline of the data cleaning process used:
 
@@ -81,7 +86,7 @@ This involves exploring the the Data to answer some questions which are needful 
  *Top 3 regions by subscription cancellations
  *Total number of active and cancelled subscription
 
-## DATA ANALYSIS WITH EXCEL
+### DATA ANALYSIS WITH EXCEL
 ---
 ### Sales Data
 [LITA Capstone Dataset (1).xlsx](https://github.com/user-attachments/files/17638634/LITA.Capstone.Dataset.1.xlsx)
@@ -97,7 +102,7 @@ Screenshot (16)
 
 Screenshot (17)
 
-## DATA VISUALIZATION WITH POWER BI.
+### DATA VISUALIZATION WITH POWER BI.
 ---
 ### Sales data
 Screenshot (18)
@@ -138,7 +143,7 @@ Attrition count 2
  *Total revenue generated was 68 million which is quite impressive and also shows the loyalty cusomers place on theie subscription thereby building a strong foundation 
  for the service
  
-## DATA ANALYSIS WITH SQL.
+### DATA ANALYSIS WITH SQL.
 
 ```SQL
 ### Sales Data
