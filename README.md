@@ -67,7 +67,7 @@ Formulas and Calculations: Calculated metrics such as average sales per product,
 Data Cleaning: Identified and handled missing values, removed duplicates, and standardized formats in preparation for SQL analysis and Power BI visualization.[Download here](https//www.microsoft.com).
 
 3. STRUCTURED QUERY LANGUAGE (SQL);
-4. 
+   
 Purpose: Perform more complex data queries, aggregations, and transformations to answer specific business questions.
 
 Key Uses:
@@ -79,7 +79,7 @@ Data Transformation: Used SQL functions to filter data, calculate metrics, and i
 Data Quality Checks: Ensured consistency and accuracy in data by cross-validating findings with Excel calculations.
 
 6. POWER BUSINESS INTELEGENCE (Power BI)
-7. 
+   
 Purpose: Create interactive dashboards for data visualization, enabling users to explore insights in a visually engaging and user-friendly format.
 
 Key Uses:
@@ -91,7 +91,7 @@ Data Slicers and Filters: Incorporated slicers for dynamic filtering, allowing s
 Data Visualization: Presented complex insights through charts, graphs, and other visuals, making trends and patterns easily understandable. [Download here](https//www.microsoft.com)
 
  8. GITHUB
- 9. 
+    
  Purpose: Is a versatile plateform for coding, collaboration, learning, and showcasing projects.
 
  Key Uses:
