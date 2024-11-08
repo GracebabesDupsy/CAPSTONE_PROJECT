@@ -33,18 +33,24 @@ In both the Sales Performance Analysis and Customer Segmentation projects, data 
 Assessment: Checked for missing values across key columns, such as sales figures, product names, customer IDs, and subscription dates.
 
 Action Taken:
+
 For missing sales values:I  verified if missing values could be attributed to returns, cancellations, or data entry errors. Where possible, filled with zeroes or 
 interpolated based on historical data trends.
 For customer or product information: I ensured that missing identifiers did not lead to duplicate or inaccurate results. Rows with critical missing values were flagged 
 or removed if data could not be reliably filled.
 
 2. Removing Duplicates
+
 Assessment: Searched for duplicate rows that could misrepresent the data, such as repeat sales transactions or duplicate customer records.
+
 Action Taken: Used filters in Excel to highlight duplicates in key columns (e.g., transaction IDs, customer IDs) and removed all redundant records, keeping only unique entries for accurate analysis.
 
 3. Standardizing Data Formats
+
 Date Formats: Ensured that all date entries followed a consistent format (e.g., YYYY-MM-DD) to facilitate time-based analysis, especially for monthly and quarterly trends.
+
 Text Formatting: Standardized text data to maintain uniformity across categories, such as product names, regions, or subscription types (e.g., consistent use of uppercase or lowercase).
+
 Numeric Formatting: Removed special characters from numerical values (e.g., dollar signs or commas) to simplify calculations and avoid formula errors in Excel.
 
 4. Outlier Detection and Treatment
@@ -54,14 +60,14 @@ For outliers caused by data entry errors: Corrected or removed values that were 
 For legitimate high or low values: Left valid data points intact if they provided meaningful insights, such as unusually high sales for popular products or regions.
 
 5. Creating New Columns for Analysis
-Added new calculated columns as needed:
-In the Sales Performance project: Created month and year columns derived from date data for easy aggregation and trend analysis.
-In the Customer Segmentation project: Created a subscription duration column by calculating the difference between start and end dates for each subscription.
+I Added new calculated columns as needed:
+In the Sales Performance project: I Created month and year columns derived from date data for easy aggregation and trend analysis.
+In the Customer Segmentation project: I Created a subscription duration column by calculating the difference between start and end dates for each subscription.
 
 6. Data Validation and Quality Check
-Conducted a final review to ensure data consistency and quality:
-Verified that all key metrics (e.g., total sales, customer counts) aligned with expected values.
-Checked that data was ready for SQL queries and Power BI dashboard creation.
+I Conducted a final review to ensure data consistency and quality:
+I Verified that all key metrics (e.g., total sales, customer counts) aligned with expected values.
+I Checked that data was ready for SQL queries and Power BI dashboard creation.
 
 ## DATA SOURCES
 ---
@@ -85,7 +91,7 @@ Data Cleaning: Identified and handled missing values, removed duplicates, and st
 
 2. STRUCTURED QUERY LANGUAGE (SQL);
    
-Purpose: Perform more complex data queries, aggregations, and transformations to answer specific business questions.
+Purpose: It Performs more complex data queries, aggregations, and transformations to answer specific business questions.
 
 Key Uses:
 
@@ -140,12 +146,13 @@ Total number of active and cancelled subscription
 
 ### DATA ANALYSIS WITH EXCEL
 ---
-### Sales Data
+Sales Data
+
 ![Screenshot (109)](https://github.com/user-attachments/assets/5cd23590-d518-4902-8bb1-f9a823fb0acc)
 
 ![Screenshot (108)](https://github.com/user-attachments/assets/82eb8320-424b-454f-a052-fad486f992ff)
 
-### Customer Data
+Customer Data
 
 ![Screenshot (106)](https://github.com/user-attachments/assets/0efd18b5-eb50-413a-a854-f0a8d9b796d8)
 
@@ -166,6 +173,7 @@ Customer data
 ### DATA ANALYSIS WITH SQL.
 
 ```SQL
+
 ### Sales Data
 SELECT * FROM [dbo].[Sales Data];
 - Total sales from each product category 
