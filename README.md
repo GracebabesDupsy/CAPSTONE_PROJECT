@@ -137,9 +137,9 @@ Sales Data
 
 Customer Data
 
-Screenshot 
+(#Screenshot)
 
-Screenshot 
+(#Screenshot) 
 
 ### DATA VISUALIZATION WITH POWER BI.
 ---
