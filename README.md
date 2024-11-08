@@ -144,13 +144,20 @@ Screenshot
 ### DATA VISUALIZATION WITH POWER BI.
 ---
 ### Sales data
-Screenshot 
+
+Screenshot 109
+
+Screenshort 108
 
 Customer data
 
-Screenshot 
+Screenshot 107
+
+Screenshot 106
 
 Attrition count 2
+
+
 
 ### DATA ANALYSIS WITH SQL.
 
