@@ -142,19 +142,21 @@ Customer Data
 (#Screenshot) 
 
 ### DATA VISUALIZATION WITH POWER BI.
+
+![Screenshot (101)](https://github.com/user-attachments/assets/96597123-6645-489c-b309-17130719f00d)
+
 ---
 ### Sales data
 
-![Screenshot (101)](https://github.com/user-attachments/assets/e87dd82b-1a95-4f0a-b5c2-bd0e2e4d5cf9)
+![Screenshot (109)](https://github.com/user-attachments/assets/5cd23590-d518-4902-8bb1-f9a823fb0acc)
 
-
-https://github.com/GracebabesDupsy/LITA_CAPSTONE_PROJECT/blob/main/Screenshot%20(109).png
+![Screenshot (108)](https://github.com/user-attachments/assets/82eb8320-424b-454f-a052-fad486f992ff)
 
 Customer data
 
-Screenshot 107
+![Screenshot (106)](https://github.com/user-attachments/assets/0efd18b5-eb50-413a-a854-f0a8d9b796d8)
 
-Screenshot 106
+![Screenshot (107)](https://github.com/user-attachments/assets/71574007-9426-4451-a773-91e685e75061)
 
 Attrition count 2
 
