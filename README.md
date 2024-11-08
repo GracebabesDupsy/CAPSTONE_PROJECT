@@ -1,6 +1,6 @@
 # LITA_ CAPSTONE_PROJECT 
 
-### PROJECT TITLE: Sales and Customers Analysis
+## PROJECT TITLE: Sales and Customers Analysis
 
 [PROJECT OVERVIEW](#project-overview)
 
@@ -21,33 +21,43 @@
 [INSIGHT ON ANALYSIS](#insight-on-analysis)
 
 ## PROJECT OVERVIEW
- ---
-This work presents two in-depth data analysis projects that explore retail sales performance and customer segmentation for a subscription service. Using a combination of Excel, SQL, and Power BI, these projects demonstrate how to analyze, interpret, and visualize data to uncover actionable business insight
+---
+This work presents two in-depth data analysis projects, I explored retail sales performance and customer segmentation for a subscription service. Using a combination of Excel, SQL, and Power BI, these projects demonstrate how to analyze, interpret, and visualize data to uncover actionable business insight
+
 ## DATA CLEANING AND PREPARATION
 ---
-In both the Sales Performance Analysis and Customer Segmentation projects, data cleaning was essential to ensure accuracy and reliability. This process involved multiple steps to transform raw data into a usable format, identifying and addressing issues such as missing values, inconsistent formats, duplicate records, and outliers. Here’s an outline of the data cleaning process used:
+In both the Sales Performance Analysis and Customer Segmentation projects, data cleaning was essential to ensure accuracy and reliability. This process involved multiple steps to transform raw data into a usable format, identifying and addressing issues such as missing values, inconsistent formats, duplicate records, and outliers. Here’s an outline of the data cleaning process I used:
 
 1. Handling Missing Values
+
 Assessment: Checked for missing values across key columns, such as sales figures, product names, customer IDs, and subscription dates.
+
 Action Taken:
-For missing sales values:I  verified if missing values could be attributed to returns, cancellations, or data entry errors. Where possible, filled with zeroes or interpolated based on historical data trends.
-For customer or product information: I ensured that missing identifiers did not lead to duplicate or inaccurate results. Rows with critical missing values were flagged or removed if data could not be reliably filled.
+For missing sales values:I  verified if missing values could be attributed to returns, cancellations, or data entry errors. Where possible, filled with zeroes or 
+interpolated based on historical data trends.
+For customer or product information: I ensured that missing identifiers did not lead to duplicate or inaccurate results. Rows with critical missing values were flagged 
+or removed if data could not be reliably filled.
+
 2. Removing Duplicates
 Assessment: Searched for duplicate rows that could misrepresent the data, such as repeat sales transactions or duplicate customer records.
 Action Taken: Used filters in Excel to highlight duplicates in key columns (e.g., transaction IDs, customer IDs) and removed all redundant records, keeping only unique entries for accurate analysis.
+
 3. Standardizing Data Formats
 Date Formats: Ensured that all date entries followed a consistent format (e.g., YYYY-MM-DD) to facilitate time-based analysis, especially for monthly and quarterly trends.
 Text Formatting: Standardized text data to maintain uniformity across categories, such as product names, regions, or subscription types (e.g., consistent use of uppercase or lowercase).
 Numeric Formatting: Removed special characters from numerical values (e.g., dollar signs or commas) to simplify calculations and avoid formula errors in Excel.
+
 4. Outlier Detection and Treatment
 Assessment: Reviewed data distributions for numerical columns (e.g., sales amounts, subscription duration) to identify potential outliers that could skew the analysis.
 Action Taken:
 For outliers caused by data entry errors: Corrected or removed values that were unrealistic (e.g., extremely high sales values).
 For legitimate high or low values: Left valid data points intact if they provided meaningful insights, such as unusually high sales for popular products or regions.
+
 5. Creating New Columns for Analysis
 Added new calculated columns as needed:
 In the Sales Performance project: Created month and year columns derived from date data for easy aggregation and trend analysis.
 In the Customer Segmentation project: Created a subscription duration column by calculating the difference between start and end dates for each subscription.
+
 6. Data Validation and Quality Check
 Conducted a final review to ensure data consistency and quality:
 Verified that all key metrics (e.g., total sales, customer counts) aligned with expected values.
@@ -60,6 +70,7 @@ The main spurces for this data analysis are the "Sales Data.csv" and "Customer D
 ## TOOLS USED
 ---
 This portfolio uses a combination of Excel, SQL, and Power BI to conduct a thorough analysis of sales and customer data, transforming raw information into actionable insights through data cleaning, exploration, and visualization.
+
 1. MICROSOFT EXCEL;
  
 Purpose: Initial data exploration, summary reporting, and preliminary calculations.
@@ -96,71 +107,61 @@ Data Slicers and Filters: Incorporated slicers for dynamic filtering, allowing s
 
 Data Visualization: Presented complex insights through charts, graphs, and other visuals, making trends and patterns easily understandable. [Download here](https//www.microsoft.com)
 
- 4. GITHUB
-    
- Purpose: Is a versatile plateform for coding, collaboration, learning, and showcasing projects.
+4. GITHUB
 
- Key Uses:
+Purpose: Is a versatile plateform for coding, collaboration, learning, and showcasing projects.
+
+Key Uses:
  
- Portfolio Building: To build portfolio or to showcase/ demonstrate one's work
- Collaboration: Enables teams to work togetheron the same project
+Portfolio Building: To build portfolio or to showcase/ demonstrate one's work
+Collaboration: Enables teams to work togetheron the same project
 
-## EXPLORATORY DATA AnNALYSIS
+## EXPLORATORY DATA ANALYSIS
 ---
 This involves exploring the the Data to answer some questions which are needful for effective analysis. Questions such as
 
 ### Sales Data
 
- *What is the total sales for each product category
- *Number of sales in each region
- *Total revenue per product Monthly Sales totals for the current year
- *Top 5 customers by purchase amount
- *Percentage of total sales contributed by each region
- *Products with no sales in the last quarter
+What is the total sales for each product category
+Number of sales in each region
+Total revenue per product Monthly Sales totals for the current year
+Top 5 customers by purchase amount
+Percentage of total sales contributed by each region
+Products with no sales in the last quarter
 
 ### Customer Data
- *The total number of customers for each region
- *The most popular subscription type by number of customers
- *Customers who cancelled their subscription within 6 months
- *Customers with subscription longer than 12 months
- *Total revenue by subscription type
- *Top 3 regions by subscription cancellations
- *Total number of active and cancelled subscription
+The total number of customers for each region
+The most popular subscription type by number of customers
+Customers who cancelled their subscription within 6 months
+Customers with subscription longer than 12 months
+Total revenue by subscription type
+Top 3 regions by subscription cancellations
+Total number of active and cancelled subscription
 
 ### DATA ANALYSIS WITH EXCEL
 ---
 ### Sales Data
-[LITA Capstone Dataset (1).xlsx](https://github.com/user-attachments/files/17638634/LITA.Capstone.Dataset.1.xlsx)
-[LITA CAPSTONE Cleaned EXCEL PIVOT TABLE.xlsx](://github.com/user-attachments/files/17638672/LITA.CAPSTONE.Cleaned.EXCEL.PIVOT.TABLE.xlsx)
-### Sales Data
-Sales Data
-
-Customer Data
-
-(#Screenshot)
-
-(#Screenshot) 
-
-### DATA VISUALIZATION WITH POWER BI.
-
-![Screenshot (101)](https://github.com/user-attachments/assets/96597123-6645-489c-b309-17130719f00d)
-
----
-### Sales data
-
 ![Screenshot (109)](https://github.com/user-attachments/assets/5cd23590-d518-4902-8bb1-f9a823fb0acc)
 
 ![Screenshot (108)](https://github.com/user-attachments/assets/82eb8320-424b-454f-a052-fad486f992ff)
 
-Customer data
+### Customer Data
 
 ![Screenshot (106)](https://github.com/user-attachments/assets/0efd18b5-eb50-413a-a854-f0a8d9b796d8)
 
 ![Screenshot (107)](https://github.com/user-attachments/assets/71574007-9426-4451-a773-91e685e75061)
 
-Attrition count 2
+### DATA VISUALIZATION WITH POWER BI.
 
+Sales data
 
+![Screenshot (101)](https://github.com/user-attachments/assets/96597123-6645-489c-b309-17130719f00d)
+
+Customer data
+
+![Screenshot (21)](https://github.com/user-attachments/assets/8a86e657-9102-4f90-adc5-01b4c0fe2cee)
+
+---
 
 ### DATA ANALYSIS WITH SQL.
 
@@ -270,30 +271,30 @@ Group by Canceled;
 
 ### Sales Data
 
- *Shoes is the best selling product with over 600,000 sales
+Shoes is the best selling product with over 600,000 sales
  
- *Socks is the least selling product with about 180,000 sales
+Socks is the least selling product with about 180,000 sales
  
- *The busiest month was February
+The busiest month was February
  
- *There was strong and high sales in the first and second quarter
+There was strong and high sales in the first and second quarter
  
- *Sales was down by about 50% in the last quarter
+Sales was down by about 50% in the last quarter
  
- *In all the regions, South had 44% of sales, East had 23%, North had 18% and lastly West with 14%
+In all the regions, South had 44% of sales, East had 23%, North had 18% and lastly West with 14%
  
- *Average sales for the year was 211.78% showing strong customer interest throughout the year
+Average sales for the year was 211.78% showing strong customer interest throughout the year
  
- *Customer data
+### Customer data
  
- *Basic Subsciption emerged as the most popular type of subscription accounting for over 50% of all the subscriptions
+Basic Subsciption emerged as the most popular type of subscription accounting for over 50% of all the subscriptions
  
- *Average Subscription was 365vdays
+Average Subscription was 365vdays
  
- *East showed a remarkable commitment to their subscription with zero cancellation while others occasionaly cancel their subscription
+East showed a remarkable commitment to their subscription with zero cancellation while others occasionaly cancel their subscription
  
- *Total revenue generated was 68 million which is quite impressive and also shows the loyalty customers placed on their suscription thereby building a strong foundation 
-  for the service.
+Total revenue generated was 68 million which is quite impressive and also shows the loyalty customers placed on their suscription thereby building a strong foundation 
+for the service.
 
 
 
