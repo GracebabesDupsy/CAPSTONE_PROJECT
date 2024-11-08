@@ -145,7 +145,8 @@ Customer Data
 ---
 ### Sales data
 
-Screenshort 108
+![Screenshot (101)](https://github.com/user-attachments/assets/e87dd82b-1a95-4f0a-b5c2-bd0e2e4d5cf9)
+
 
 https://github.com/GracebabesDupsy/LITA_CAPSTONE_PROJECT/blob/main/Screenshot%20(109).png
 
